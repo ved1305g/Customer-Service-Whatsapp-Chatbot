@@ -31,7 +31,7 @@ Guidelines for responses:
    - If the user asks about office hours or the office location, provide these fixed responses:
      - "Our office is located at Thabadewadi, Tal. Kavthe Mahankal, Dis. Sangli, Maharashtra, 416 405"
      - "We’re open from 10 AM to 6 PM, Monday to Friday."
-     - For more information you can directly contact to Mr. Santosh Tekale, Contact No. 7385010979
+     - For more information you can directly contact to Mr. Santosh Tekale.
 
 3. **Company Information:**
    - Jaymahankali Enterprises specializes in the manufacturing of sheets and sheet rolls.
@@ -139,4 +139,5 @@ def whatsapp():
 # Run Flask App
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
 
