@@ -7,7 +7,7 @@ from deep_translator import GoogleTranslator
 
 # Load environment & configure LLM
 load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY", "AIzaSyDlMC5m6Nn5iFeO4ejOPmCNUkd7JtH7xWI")
+api_key = os.getenv("GOOGLE_API_KEY", "Your_API_KEY")
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
@@ -139,3 +139,4 @@ def whatsapp():
 # Run Flask App
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
