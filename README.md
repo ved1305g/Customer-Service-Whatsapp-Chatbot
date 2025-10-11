@@ -62,10 +62,13 @@ Ngrok will give you a public URL, e.g., https://abcd1234.ngrok.io.
 
 6. Chat with the Bot
 - 🤖😊 Chatbot is ready!
-  
+
 - Send a message to your Twilio WhatsApp sandbox number.
 
 - The bot will ask for your preferred language (English / Marathi) only once.
 
 - Subsequent messages will continue in your selected language.
+
+👨‍💻 Contributior- 
+    Vedika Sardeshmukh
 
