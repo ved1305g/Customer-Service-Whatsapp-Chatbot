@@ -68,7 +68,8 @@ Ngrok will give you a public URL, e.g., https://abcd1234.ngrok.io.
 - The bot will ask for your preferred language (English / Marathi) only once.
 
 - Subsequent messages will continue in your selected language.
+  
 
-👨‍💻 Contributior- 
-    Vedika Sardeshmukh
+👨‍💻 Contributior
+- Vedika Sardeshmukh
 
