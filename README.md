@@ -71,5 +71,6 @@ Ngrok will give you a public URL, e.g., https://abcd1234.ngrok.io.
   
 
 👨‍💻 Contributior
+- Vedanti Ghongade
 - Vedika Sardeshmukh
 
