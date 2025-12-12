@@ -17,7 +17,6 @@ app.secret_key = "supersecretkey"  # Needed for session
 
 # Helper Function
 def get_llm_response(query: str):
-    """Generate response using Gemini API."""
     prompt = f"""
 You are a virtual assistant chatbot for Jaymahankali Enterprises. Your role is to provide polite, helpful, and professional responses to customer queries.
 
@@ -80,14 +79,13 @@ user_languages = {}  # key: user phone number, value: 'en' or 'mr'
 def whatsapp():
     try:
         incoming_msg = request.form.get("Body", "").strip()
-        from_number = request.form.get("From")  # WhatsApp user number
+        from_number = request.form.get("From")  r
         resp = MessagingResponse()
 
         if not incoming_msg:
             resp.message("No message received")
             return str(resp)
 
-        # Check if language is already set for this user
         lang = user_languages.get(from_number)
 
         # Ask language if not yet chosen
@@ -139,5 +137,6 @@ def whatsapp():
 # Run Flask App
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
 
 
