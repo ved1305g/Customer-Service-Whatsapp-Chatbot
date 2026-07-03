@@ -47,7 +47,7 @@ Install and run ngrok:
 ngrok http 5000
 ```
 Ngrok will give you a public URL, e.g., https://abcd1234.ngrok.io.
-
+Insert /whatsapp along with ngrok link
 5. Configure Twilio WhatsApp
 
 - Sign in to your Twilio Console
